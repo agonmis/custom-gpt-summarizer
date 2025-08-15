@@ -5,13 +5,15 @@ load_dotenv()
 
 client = OpenAI()
 
+SYSTEM_PROMPT = "Du bist ein exzellenter Textzusammenfasser. Fasse den gegebenen Text in 1-2 Sätzen zusammen."
+
 def callOpenAI(prompt: str):
     response = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
             {
                 "role": "system",
-                "content": "Du bist ein exzellenter Textzusammenfasser. Fasse den gegebenen Text in 1-2 Sätzen zusammen."
+                "content": SYSTEM_PROMPT
             },
             {
                 "role": "user",
@@ -20,4 +22,3 @@ def callOpenAI(prompt: str):
         ]
     )
     return response.choices[0].message.content
-

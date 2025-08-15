@@ -1,21 +1,20 @@
-# CustomGPT Summarizer App.
-Eine LLM-basierte App, die Texte zusammenfassen kann.
+# 🚀 Projektname
 
-## Module installieren
+Kurze und prägnante Beschreibung:  
+Was macht das Projekt? Warum ist es nützlich?
+
+---
+
+## 📦 Installation
+
+Voraussetzungen:  
+- Node.js / Python / <anderes> Version X  
+- Weitere Abhängigkeiten  
+
 ```bash
-pip install openai streamlit python-dotenv
-```
+# Repository klonen
+git clone https://github.com/username/projektname.git
+cd projektname
 
-## Umgebungsvariablen setzen
-1. API-Key erstellen
-2. .env-Datei erstellen
-
-| Spalte 1 | Spalte 2 |
-|----------|----------|
-| Wert A   | Wert B   |
-
-
-## Ausführung
-```bash
-streamlit run index.py
-```
+# Abhängigkeiten installieren
+npm install   # oder pip install -r requirements.txt

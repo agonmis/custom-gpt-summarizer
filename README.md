@@ -1,21 +1,14 @@
-# Mein Projekt
-Ein kleines Tool, das XYZ automatisiert.
+# CustomGPT Summarizer App.
+Eine LLM-basierte App, die Texte zusammenfassen kann.
 
-## Inhaltsverzeichnis
-- [Installation](#installation)
-- [Benutzung](#benutzung)
-- [Beispiel](#beispiel)
-- [Mitwirken](#mitwirken)
-- [Lizenz](#lizenz)
-
-1. First list item
-   - First nested list item
-     - Second nested list item
-
-## Installation
-### Kapitel
-
+## Module installieren
 ```bash
-pip install fastapi uvicorn openai streamlit python-dotenv
+pip install openai streamlit python-dotenv
+```
 
+## Umgebungsvariablen setzen
+
+## Ausführung
+```bash
+streamlit run index.py
 ```

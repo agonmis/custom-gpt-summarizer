@@ -8,6 +8,10 @@ Ein kleines Tool, das XYZ automatisiert.
 - [Mitwirken](#mitwirken)
 - [Lizenz](#lizenz)
 
+1. First list item
+   - First nested list item
+     - Second nested list item
+
 ## Installation
 ```bash
 git clone https://github.com/deinname/mein-projekt.git

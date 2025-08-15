@@ -14,10 +14,6 @@ Ein kleines Tool, das XYZ automatisiert.
 
 ## Installation
 ```bash
-git clone https://github.com/deinname/mein-projekt.git
-cd mein-projekt
-npm install
+pip install fastapi uvicorn openai streamlit python-dotenv
 
-## Benutzung
-```bash
-npm start
+```
